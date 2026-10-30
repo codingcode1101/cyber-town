@@ -1,0 +1,21 @@
+# 本机部署所需的额外依赖（在 requirements.txt 基础上追加）
+#
+# 说明：requirements.txt 只列了教程要求的最小集合，
+# 实际运行 hello-agents 0.2.9 + 记忆系统还需要下面这些包。
+#
+# 安装：uv pip install -r requirements.local.txt（或 pip install -r ...）
+
+# hello_agents 的 evaluation 模块在包导入时就会 import，缺了会直接 ModuleNotFoundError
+huggingface-hub
+datasets
+evaluate
+pandas
+matplotlib
+seaborn
+
+# 记忆系统向量库：必须用 1.12.x
+# 1.15+ 移除了 SearchRequest，hello_agents 的 qdrant_store.py 会 ImportError
+qdrant-client==1.12.1
+
+# TF-IDF 兜底嵌入模型（EMBED_MODEL_TYPE=tfidf）依赖
+scikit-learn
