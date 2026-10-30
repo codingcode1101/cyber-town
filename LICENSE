@@ -1,0 +1,29 @@
+# 许可证
+
+本项目采用 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+（CC BY-NC-SA 4.0）许可协议。
+
+## 你可以
+
+- **共享** —— 以任何媒介或格式复制、发行本作品
+- **演绎** —— 修改、转换或以本作品为基础进行创作
+
+## 但须遵守
+
+- **署名** —— 必须注明原作者与出处，并提供许可协议链接
+- **非商业性使用** —— 不得将本作品用于商业目的
+- **相同方式共享** —— 若修改、转换或以本作品为基础创作，须以相同许可协议分发
+
+## 出处
+
+本仓库源自 Datawhale《Hello-Agents》教材第 15 章的配套案例：
+
+- 原项目：<https://github.com/datawhalechina/hello-agents>
+- 原路径：`code/chapter15/Helloagents-AI-Town`
+
+本仓库在该版本基础上补充了本地部署脚本、依赖修正与部署文档
+（详见 [README](README.md#-本仓库相对原版的改动) 与 [本地部署说明](本地部署说明.md)）。
+
+## 协议全文
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
